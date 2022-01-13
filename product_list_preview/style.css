@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #98fb98;
+}
+
+.container {
+    display: flex;
+    height: 1000px;
+    width: 100%;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.img-bg {
+    flex-basis: 25%;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    height: 400px;
+    width: 450px;
+    position: relative;
+}
+
+.one {
+    background-image: url(product-1.jpg);
+}
+
+.two {
+    background-image: url(product-2.jpg);
+}
+
+.three {
+    background-image: url(product-3.jpg);
+}
+
+.four {
+    background-image: url(product-4.jpg);
+}

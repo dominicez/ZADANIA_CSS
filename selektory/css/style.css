@@ -1,0 +1,15 @@
+p {
+    color: red;
+}
+
+h1 {
+    background-color: salmon;
+}
+
+h3 {
+    background-color: sienna;
+}
+
+h1 + h3 {
+    color: royalblue;
+}

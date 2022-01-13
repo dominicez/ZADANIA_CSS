@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+}
+
+figure {
+	position: relative;
+	width: 50%;
+	margin: auto;
+}
+
+
+figure::before, figure::after {
+	content: '';
+	position: absolute;
+	border-left: 3px solid #000022;
+	border-right: 3px solid #000022;
+	width: 100%;
+	height: 0px;
+	left: -3px;
+	
+}
+
+figure::before {
+	bottom: 0;
+	border-bottom: 0px solid #000022;
+	transition: border-bottom 0.1s ease, height 0.3s ease 0.1s;
+}
+
+figure::after {
+	top: 0;
+	border-top: 0px solid #000022;
+	transition: border-top 0.1s ease, height 0.3s ease 0.1s;
+}
+
+figure:hover::before, figure:hover::after {
+	height: 50%;
+}
+
+figure:hover::before {
+	border-bottom: 3px solid #000022;	
+}
+
+figure:hover::after {
+	border-top: 3px solid #000022;
+}
+
+
+figcaption {
+	position: absolute;
+	text-transform: uppercase;
+	top: 50%;
+	color: #fff;
+	font-size: 3em;
+	left: 0;
+	right: 0;
+	text-align: center;
+	transform: translateY(-50%);
+	background-color: rgba(0,0,0,0.8);
+	font-size: 0px;
+	transition: font-size 0.4s ease;
+	
+}
+
+figure:hover figcaption {
+	font-size: 3em;
+}
+
+img {
+	width: 100%;
+	display: inline-block;
+	padding: 5px;
+	
+}

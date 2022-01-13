@@ -1,0 +1,43 @@
+body {
+    background-color: goldenrod;
+}
+
+h1 {
+background-color: khaki;
+}
+
+#p1 {
+    background-color: green;
+}
+
+#p2 {
+    background-color: greenyellow;
+}
+
+h2 {
+    background-color: hotpink;
+}
+
+ol {
+    background-color: indigo;
+
+}
+#item1 {
+    color: white;
+}
+
+#item2 {
+    color: yellow;
+}
+
+#item3 {
+    color: greenyellow;
+}
+
+#item4 {
+    color: skyblue;
+}
+
+#item5 {
+    color: red;
+}
